@@ -1,0 +1,76 @@
+
+html, body {
+	color: white;
+    margin: 0;
+	background-color: #3AA4E9;
+}
+
+h1 { 
+color: white;
+   }
+
+a {
+   color: white;
+   }
+
+button {
+    background-color:#FF9333 ;
+    border: rgb(235, 135, 48);
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: ruby-text-container;
+    font-size: 30px;
+	
+}
+
+titel {
+	background-color: #3AA4E9;
+    position: relative;
+    color: black; 
+    padding-top: 4%; 
+
+}
+div {
+	background-color: #3AA4E9;
+	}
+	
+container{
+	background-color: #3AA4E9;
+	border: 15px solid #B22222;
+	border-radius: 10px;
+
+}
+h2{
+    border: 3px solid white;
+    border-radius: 12px;
+}
+form{
+	background-color: #3AA4E9;
+	}
+
+title {
+	background-color: #3AA4E9;
+    position: relative;
+    width: 10%;
+    height: 10%;
+    left: 80%;  
+}
+
+#keuze {
+
+    position: relative;
+    color:black; 
+    padding-bottom: 5%;   
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #3AA4E9;
+  text-align: center;
+}
+
