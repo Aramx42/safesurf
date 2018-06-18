@@ -1,0 +1,97 @@
+html, body {
+    background-color: #33C3FF; 
+}
+
+.div-onderwerp {
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    width:50%;
+    height:50%;
+ 
+}
+
+.text-box-text{
+
+    line-height: 20px;
+    padding:25px;
+    border: solid black 1px;
+}
+
+#welkom  {
+	position: absolute;
+	left: 0%;
+	top: -50%;
+}
+
+#nickname {
+	position: absolute; 
+	left: 0%; 
+	top: 2%
+}
+
+#zoekfunctie {
+position: absolute;
+left: 93.5%;
+top: 0%;
+}
+
+#pijltje {
+	position: absolute; 
+	left: 2%; 
+	top: 90%
+}
+
+#stopknop {
+	position: absolute; 
+	left: 8%; 
+	top: 90%
+}
+
+#robot {
+	position: absolute; 
+	left: 70%; 
+	top: 9%
+}
+
+#personage {
+	position: absolute; 
+	left: -10%; 
+	top: -10%
+}
+
+#element1 {
+	position: absolute;
+	right: -10%;
+	top: 10%;
+}
+
+#element2 {
+	position: absolute;
+	right: -10%;
+	bottom: -10%;
+}
+
+#element3 {
+	position: absolute;
+	left: -10%;
+	bottom: -10%;
+}
+
+#element4 {
+	position: absolute;
+	left: 35%;
+	bottom: -10%;
+}
+#element5 {
+	position: absolute;
+	left: 35%;
+	top: -10%;
+}
+
+
