@@ -10,11 +10,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
+
 <script>
 function goBack() {
     window.history.back();
 }
 </script>
+
 <body>
 
 <div class="container" align="center">
@@ -31,7 +33,7 @@ function goBack() {
 		
 		<div class="pull-right">
 		
-		<input type="text" placeholder="Search.." style="color: black"> <!-- Fix dit-->
+		<input type="text" placeholder="Search.." style="color: black">
 		
 		
 			<div class="btn-group">
@@ -63,6 +65,7 @@ function goBack() {
   <a href="#" class="list-group-item list-group-item-action">Onderwerp 4</a>
   <a href="#" class="list-group-item list-group-item-action">Onderwerp 5</a>
 </div>
+
 <div class="list-group col-lg-2" align="left" style="padding: 5%">
 </div>
 	  
@@ -76,10 +79,74 @@ function goBack() {
   <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
   <a href="#" class="list-group-item list-group-item-action">Vestibulum at eros</a>
 </div>
+<div class="row"> 
+	<div class="col-lg-5" align="center">
+	
+<!-- Large modal -->
+<button type="button" class="btn btn-warning" data-toggle="modal" data-target=".bd-example-modal-lg">Ranking</button>
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" style="background-color: transparent" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+       <div class="modal-header">
+        <button type="btn-warning" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Ranking</h4>
+      </div>
+      <div class="modal-body" style="background-color: white; border-color: #33C3FF">
+          <table class="table table-condensed" style="color: black">
+    <thead>
+      <tr>
+        <th>Nr</th>
+        <th>Naam</th>
+        <th>Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Piet</td>
+        <td>20394</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Willemijn</td>
+        <td>19621</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Thomas</td>
+        <td>19002</td>
+      </tr>
+	  <tr>
+        <td>4</td>
+        <td>Alexander</td>
+        <td>16583</td>
+      </tr>
+	  <tr>
+        <td>5</td>
+        <td>Eva</td>
+        <td>15902</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Sluiten</button>
+      </div>
+    </div>
+  </div>
+</div>
+	</div>
+	
+	<div class="col-lg-2" align="left" style="padding: 5%">
+	</div>
+	
+	<div class="col-lg-5" align="center">
+		<a href="docent.html"><button class="btn btn-success" style="border-radius: 40%"> +Nieuwe Les </button></a>
 	</div>
 	<div class="footer">
 
-		
 			<div class="col-xs-1">
 			<img border="0" alt="W3Schools" src="images/terugpijltje.jpg" width="50" height="50" onclick="goBack()">
 			</div>
@@ -93,6 +160,5 @@ function goBack() {
 			</div>
 	</div>
 </div>
-
 </body>
 </html>
