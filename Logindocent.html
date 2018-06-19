@@ -3,11 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-   <link rel="stylesheet" type="text/css" href="CSS/stylelogindocent.css">
-   
+   <link rel="stylesheet" type="text/css" href="CSS/stylelogindocent.css"> 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -41,7 +38,6 @@
     </div>
 	</div>
 
-
     <div align= "center" class="col-sm-12">
 	<a href="docent.html">
 <img border="0" alt="W3Schools" src="images/terugpijltje.jpg" width="50" height="50">
@@ -49,11 +45,51 @@
 
       <button type="submit" class="btn btn-warning">Login</button>
     </div>
-  <div align= "right" class="col-sm-8">
-     <a href="#">wachtwoord vergeten?</a>
-
+  <div align= "right" class="col-sm-8" style="color: black">
+     <a href="#" data-toggle="modal" data-target=".bd-example-modal-md">wachtwoord vergeten?</a>
+	 <div class="modal fade bd-example-modal-md" tabindex="-1" role="dialog" align="left" style="background-color: transparent" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content">
+       <div class="modal-header">
+        <button type="btn-warning" class="close" data-dismiss="modal">&times;</button>
+        <h3 class="modal-title" style="color: white">Herstel wachtwoord</h3>
+      </div>
+      <div class="modal-body" align="center" style="background-color: white; border-color: #33C3FF">
+	 
+	  <p align="left"> Vul hieronder uw emailadres in. U zult van ons een mail ontvangen met daarin een link waarmee u uw wachtwoord kunt veranderen</p> 
+	  <br>
+	  <input type="email" class="form-control" id="forgotemail" placeholder="Uw emailadres">
+	  <br> 
+	 
+	  <div class="btn btn-warning" data-dismiss="modal" data-toggle="modal" data-target=".bd-example2-modal-md"> Verzend</div>
+	
+	  </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Sluiten</button>
+      </div>
     </div>
   </div>
+</div>
+<div class="modal fade bd-example2-modal-md" tabindex="-1" role="dialog" align="left" style="background-color: transparent" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content">
+       <div class="modal-header">
+	   <button type="btn-warning" class="close" data-dismiss="modal">&times;</button>
+        <h3 class="modal-title" style="color: white">Herstel wachtwoord</h3>
+      </div>
+      <div class="modal-body" style="background-color: white; border-color: #33C3FF">
+	  <br><br>
+Controleer je inbox of je een link hebt ontvangen om je wachtwoord opnieuw in te stellen
+	  <br><br><br>
+	  </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Sluiten</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
 </form>
 </body>
 </html>
