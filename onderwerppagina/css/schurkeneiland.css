@@ -1,9 +1,47 @@
 html, body {
     background-color: #33C3FF; 
-	background-image: url("../images/schurkeneilandachtergrond.png");
+	background-image: url("../images/Eiland2blauw.png");
 	background-repeat: no-repeat;
-	background-size: 90%;
+	background-size: 1920px 1080px;
 }
+
+#myModal1 {
+top:20%;
+right:0%;
+outline: none;
+}
+
+#myModal2 {
+top:20%;
+right:0%;
+outline: none;
+}
+
+#myModal3 {
+top:20%;
+right:0%;
+outline: none;
+}
+
+#myModal4 {
+top:20%;
+right:0%;
+outline: none;
+}
+
+#myModal5 {
+top:20%;
+right:0%;
+outline: none;
+}
+
+#myModal6 {
+top:20%;
+right:0%;
+outline: none;
+}
+
+
 
 .div-onderwerp {
     width: 50px;
@@ -40,7 +78,7 @@ html, body {
 
 #zoekfunctie {
 position: absolute;
-left: 93.5%;
+left: 90%;
 top: 0%;
 }
 
@@ -70,26 +108,26 @@ top: 0%;
 
 #element1 {
 	position: absolute;
-	right: -10%;
-	top: 10%;
+	right: 60%;
+	top: 0%;
 }
 
 #element2 {
 	position: absolute;
-	right: -10%;
-	bottom: -10%;
+	right: -7%;
+	bottom: -19%;
 }
 
 #element3 {
 	position: absolute;
-	left: -10%;
-	bottom: -10%;
+	left: 8%;
+	bottom: 5%;
 }
 
 #element4 {
 	position: absolute;
-	left: 35%;
-	bottom: -10%;
+	left: 40%;
+	bottom: -30%;
 }
 #element5 {
 	position: absolute;

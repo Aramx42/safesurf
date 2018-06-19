@@ -2,6 +2,38 @@ html, body {
     background-color: #33C3FF; 
 }
 
+#myModal1 {
+top:20%;
+right:0%;
+outline: none;
+}
+
+#myModal2 {
+top:20%;
+right:0%;
+outline: none;
+}
+
+#myModal3 {
+top:20%;
+right:0%;
+outline: none;
+}
+
+#myModal4 {
+top:20%;
+right:0%;
+outline: none;
+}
+
+#myModal5 {
+top:20%;
+right:0%;
+outline: none;
+}
+
+
+
 .div-onderwerp {
     width: 50px;
     height: 100px;
@@ -60,38 +92,40 @@ top: 0%;
 }
 
 #personage {
-	position: absolute; 
-	left: -10%; 
-	top: -10%
+	position: relative; 
+	left: -17%; 
+	top: 0%
 }
 
 #element1 {
 	position: absolute;
-	right: -10%;
-	top: 10%;
+	left: -10%;
+	bottom: -10%;
+
 }
 
 #element2 {
 	position: absolute;
-	right: -10%;
+	left: 35%;
 	bottom: -10%;
 }
 
 #element3 {
 	position: absolute;
-	left: -10%;
-	bottom: -10%;
+	left: 35%;
+	top: 8%;
 }
 
 #element4 {
 	position: absolute;
-	left: 35%;
-	bottom: -10%;
+	right: -10%;
+	top: 10%;
 }
 #element5 {
 	position: absolute;
-	left: 35%;
-	top: -10%;
+	right: -10%;
+	bottom: -10%;
+
 }
 
 
