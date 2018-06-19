@@ -20,21 +20,18 @@ function goBack() {
 <body>
 
 <div class="container" align="center">
+
+								<!-- bovenkant pagina -->
+
 	<div class="row">
-	
 	<br>
-	
 		<div class="col-lg-2 pull-left">
 		<button class="btn btn-warning">Logingegevens</button>
 		</div>
 		<div class= "col-lg-4 col-lg-offset-2"> <h1>Les 1</h1>
 		</div>
-	
-		
 		<div class="pull-right">
-		
 		<input type="text" placeholder="Search.." style="color: black">
-		
 		
 			<div class="btn-group">
 			<button class="btn btn-primary dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">Profiel</button>
@@ -48,183 +45,209 @@ function goBack() {
 		</div>  
 	</div>
 
+
+		
+						<!-- Tabel met Voortgang per leerling -->
+					
+	
 	<div class="row" style="margin-top: 2%">
-	<div class=" col-lg-2"></div>
+		<div class="col-lg-12";>
+			<table cellpadding="0" cellspacing="0" width="100%" class="fixed_header table-striped" style="background-color: white; color: black;">
+							<!-- Tabel Header -->
+
+				<thead class="fixed_header">
+					<tr style="background-color: #337ab7; color:white">	
+							<th width="20%"><h4>Nickname</h4></th>
+							<th width="20%"><h4>Quiz</h4></th>
+							<th width="20%"><h4>Game 1</h4></th>
+							<th width="20%"><h4>Game 2</h4></th>
+							<th width="50%"><h4>Vooruitgang</h4></th>
+					</tr>
+				</thead>
+
+								<!-- Tabel Body -->
+
+			<tbody class="scrollContent">
+
+									<!-- Rij 1 -->
+				<tr>
+					<td width="20%">Naam</td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td width="25%"><span class="progress" value="40" max="100">
+						<span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 30%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">30%</span>
+						</span>
+					</td>
+				</tr>
+				
+										<!-- Rij 2 -->
+				
+				<tr>
+					<td width="20%">Naam</td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td><span class="progress value="40" max="100">
+						<span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 40%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">40%</span>
+						</span></td>
+				</tr>
+				
+										<!-- Rij 3 -->
+				
+				<tr>
+					<td>Naam</td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td><span class="progress value="40" max="100">
+							<span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">100%</span>
+					</span></td>
+				</tr>
+				
+										<!-- Rij 4 -->
+										
+				<tr>
+					<td>Naam</td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></td>
+					<td><span class="progress value="40" max="100">
+			  <span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">70%</span>
+			</span></td>
+				</tr>
+				
+										<!-- Rij 5 -->
+										
+				<tr>
+					<td>Naam</td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td><span class="progress value="40" max="100">
+							<span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">100%</span>
+						</span></td>
+				</tr>
+										<!-- Rij 6 -->						
+				<tr>
+					<td width="20%">Naam</td>
+					<td width="15%"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></td>
+					<td><span class="progress value="40" max="20">
+							<span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 0%; color: black"" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">0%</span>
+						</span></td>
+				</tr>	
+										<!-- Rij 7 -->
+				<tr>
+				
+					<td>Naam</td>
+					<td width="15%"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></td>
+					<td><span class="progress value="40" max="20">
+							<span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 20%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">20%</span>
+						</span></td>
+				</tr>	
+										<!-- Rij 8 -->							
+				<tr>
+					<td>Naam</td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td><span class="progress value="40" max="100">
+						<span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">100%</span>
+						</span></td>
+				</tr>	
+										<!-- Rij 9 -->							
+				<tr>
+					<td>Naam</td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td><span class="progress value="40" max="100">
+							<span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">100%</span>
+						</span></td>
+				</tr>
+										<!-- Rij 10 -->
+				<tr>
+					<td>Naam</td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td><span class="progress value="40" max="100">
+							<span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">100%</span>
+						</span></td>
+				</tr>
+										<!-- Rij 11 -->
+				<tr>
+					<td>Naam</td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td><span class="progress value="40" max="100">
+							<span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">100%</span>
+						</span></td>
+				</tr>
+										<!-- Rij 12 -->
+				<tr>
+					<td>Naam</td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></td>
+					<td><span class="progress value="40" max="100">
+							<span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 90%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">90%</span>
+						</span></td>
+				</tr>
+										<!-- Rij 13 -->
+				<tr>
+					<td>Naam</td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></td>
+					<td><span class="progress value="40" max="100">
+							<span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 85%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">85%</span>
+						</span></td>
+				</tr>
+										<!-- Rij 14 -->
+				<tr>
+					<td>Naam</td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
+					<td width="15%"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></td>
+					<td><span class="progress value="40" max="100">
+							<span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 95%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">95%</span>
+						</span></td>
+				</tr>
+			</tbody>
+		</table>
 	</div>
-		
-		
-	<div class="row"> 
-		
 </div>
-<div class="row"</div>
-<div class="col-lg-12";>
-<table border="0" cellpadding="0" cellspacing="0" width="100%" class="fixed_header table-striped" style="background-color: white; color: black;">
-<thead class="fixed_header">
-<tr style="background-color: #337ab7; color:white">	
-		<th width="20%"><h4>Nickname</h4></th>
-		<th width="20%"><h4>Quiz</h4></th>
-		<th width="20%"><h4>Game 1</h4></th>
-		<th width="20%"><h4>Game 2</h4></th>
-		<th width="50%"><h4>Vooruitgang</h4></th>
-	</tr>
-</thead>
-<tbody class="scrollContent">
-	<tr>
-		<td width="20%">Naam</td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td width="25%"><span class="progress" value="40" max="100">
-  <span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 30%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">30%</span>
-</span>
-</td>
 
-	</tr>
-	<tr>
-		<td width="20%">Naam</td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td><span class="progress value="40" max="100">
-  <span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 40%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">40%</span>
-</span></td>
-	</tr>
-	<tr>
-		<td>Naam</td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td><span class="progress value="40" max="100">
-  <span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">100%</span>
-</span></td>
-	</tr>
-	<tr>
-		<td>Naam</td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></td>
-		<td><span class="progress value="40" max="100">
-  <span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">70%</span>
-</span></td>
-	</tr><tr>
-		<td>Naam</td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td><span class="progress value="40" max="100">
-  <span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">100%</span>
-</span></td>
-	</tr>
-	<tr>
-		<td width="20%">Naam</td>
-		<td width="15%"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></td>
-		<td><span class="progress value="40" max="20">
-  <span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 0%; color: black"" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">0%</span>
-</span></td>
-	</tr>
-	</tr>
-	<tr>
-		<td>Naam</td>
-		<td width="15%"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></td>
-		<td><span class="progress value="40" max="20">
-  <span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 20%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">20%</span>
-</span></td>
-	</tr>
-	<tr>
-		<td>Naam</td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td><span class="progress value="40" max="100">
-  <span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">100%</span>
-</span></td>
-	</tr>
-	<tr>
-		<td>Naam</td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td><span class="progress value="40" max="100">
-  <span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">100%</span>
-</span></td>
-	</tr>
+<!-- Lescode in groene box-->
 
-	<tr>
-		<td>Naam</td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td><span class="progress value="40" max="100">
-  <span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">100%</span>
-</span></td>
-	</tr>
-	<tr>
-		<td>Naam</td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td><span class="progress value="40" max="100">
-  <span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 100%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">100%</span>
-</span></td>
-	</tr>
-	<tr>
-		<td>Naam</td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></td>
-		<td><span class="progress value="40" max="100">
-  <span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 90%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">90%</span>
-</span></td>
-	</tr>
-	<tr>
-		<td>Naam</td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></td>
-		<td><span class="progress value="40" max="100">
-  <span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 85%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">85%</span>
-</span></td>
-	</tr>
-	<tr>
-		<td>Naam</td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>
-		<td width="15%"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></td>
-		<td><span class="progress value="40" max="100">
-  <span class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" style="width: 95%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">95%</span>
-</span></td>
-	</tr>
-	
-	
-	
-	</tbody>
-</table>
-</div>
-</div>
 <div class="row" align="center"> 
 
-<div class="col-lg-12"style="padding: 3%">
-<div class="btn btn-static noHover" style="background-color: #5cb85c"> Lescode: 47YS9 </div>
+	<div class="col-lg-12"style="padding: 3%">
+		<div class="btn btn-static noHover" style="background-color: #5cb85c"> Lescode: 47YS9 </div>
 	</div>
-	
+		
+		<!-- De Footer --> 
+		
 	<div class="footer">
 
 			<div class="col-xs-1">
 			<img border="0" alt="W3Schools" src="images/terugpijltje.jpg" width="50" height="50" onclick="goBack()">
 			</div>
 		<div class="col-xs-9"></div>
-			<div class="col-xs-1">
-			<a href="Logindocent.html" class="btn btn-warning" role="button">Over Ons</a>
+		<div class="col-xs-1">
+		<a href="Logindocent.html" class="btn btn-warning" role="button">Over Ons</a>
 			</div>
-		
+			
 			<div class="col-xs-1">
 			<a href="Logindocent.html" class="btn btn-warning" role="button">Contact</a>
 			</div>
+		</div>
 	</div>
-</div>
 </body>
 </html>
