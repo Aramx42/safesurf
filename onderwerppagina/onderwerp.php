@@ -13,17 +13,14 @@
 	
 	<style>
   .modal-header, h4, .close {
-      <!--background-color: #33C3FF;-->
       color:white !important;
       text-align: bottom;
       font-size: 50px;
   }
   .modal-body {
 	  font-size:30px;
-      <!--background-color: #33C3FF;-->
   }
   .modal-footer {
-      <!--background-color: #33C3FF;-->
   }
   </style>
   
@@ -83,8 +80,6 @@
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
-         <!-- <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Filmpje</h4>-->
         </div>
         <div class="modal-body" style="padding:40px 50px;">
 		<p>Infographic</p>
@@ -137,8 +132,6 @@
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
-         <!-- <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Filmpje</h4>-->
         </div>
         <div class="modal-body" style="padding:40px 50px;">
 		<p>quiz</p>
@@ -161,8 +154,6 @@
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
-         <!-- <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Filmpje</h4>-->
         </div>
         <div class="modal-body" style="padding:40px 50px;">
 		<p>spelletje</p>
