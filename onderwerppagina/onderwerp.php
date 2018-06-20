@@ -41,26 +41,26 @@
     
          <!-- zoekfunctie  -->
         <div id="zoekfunctie">
-   		<input type="text" placeholder="Search.." style="color: black"> <!-- Fix dit-->
+   		<input type="text" placeholder="Search.." style="color: black"> 
         </div>
        
             <!-- pijltje  -->
             <div id="pijltje">
                 <a href="index.php">
-                    <img border="0" alt="W3Schools" src="images/go-back-icon.png" width="75" height="75">
+                    <img border="0" alt="W3Schools" src="images/go-back-icon.png" width=30%>
                 </a>
             </div>
              
 			 <!-- stopknop linksonderin -->
 			 <div id="stopknop">
                 <a href="index.php">
-                    <img border="0" alt="W3Schools" src="images/stop.png" width="75" height="75">
+                    <img border="0" alt="W3Schools" src="images/stop.png" width=13%>
                 </a>
             </div>  
     
             <!--robot -->
             <div id="robot">
-                <img src="images/robot.png" width="120" height="150"> 
+                <img src="images/robot.png" width=24%> 
             </div>
    
     
@@ -70,11 +70,11 @@
 	
 	<!--Personage -->
 		<div id="personage">
-             <img src="images/karakter.png" width ="250" height ="187"></a>
+             <img src="images/karakter.png" width =40%></a>
         </div>
     <!-- elementen-->
         <div id="element1">
-			<a href="#myModal1" role="button" data-toggle="modal" data-target="#myModal1"> <img src="images/info.png" width="120" height ="120"></a>
+			<a href="#myModal1" role="button" data-toggle="modal" data-target="#myModal1"> <img src="images/info.png" width=150%";></a>
         </div>
         	<!-- Modal1 INFOGRAPHIC -->
 	<div class="modal fade" id="myModal1" role="dialog">
@@ -97,7 +97,7 @@
     </div>
   </div> 
         <div id="element2">
-			<a href="#myModal2" role="button" data-toggle="modal" data-target="#myModal2"> <img src="images/filmpje.png" width="120" height ="120"></a>
+			<a href="#myModal2" role="button" data-toggle="modal" data-target="#myModal2"> <img src="images/filmpje.png" width=15%></a>
         </div>
         
 	<!-- Modal2 FILMPJE-->
@@ -127,7 +127,7 @@
   
         
         <div id="element3">
-			<a href="#myModal3" role="button" data-toggle="modal" data-target="#myModal3"> <img src="images/quiz.png" width="120" height ="120"></a>
+			<a href="#myModal3" role="button" data-toggle="modal" data-target="#myModal3"> <img src="images/quiz.png" width=20%></a>
         </div>
         
 	<!-- Modal3 QUIZ -->
@@ -151,7 +151,7 @@
     </div>
   </div> 
         <div id="element4">
-			<a href="#myModal4" role="button" data-toggle="modal" data-target="#myModal4"> <img src="images/game.png" width="120" height ="120"></a>
+			<a href="#myModal4" role="button" data-toggle="modal" data-target="#myModal4"> <img src="images/game.png" width=16%></a>
         </div>
 		
 			<!-- Modal4 GAME -->

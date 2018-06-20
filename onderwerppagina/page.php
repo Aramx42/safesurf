@@ -23,26 +23,27 @@
 
     
          <!-- zoekfunctie  -->
-        <div id="zoekfunctie"">
-   		<input type="text" placeholder="Search.." style="color: black"">
+        <div id="zoekfunctie">
+   		<input type="text" placeholder="Search.." style="color: black"> 
         </div>
        
-            <!-- pijltje -->
+            <!-- pijltje  -->
             <div id="pijltje">
                 <a href="index.php">
-                    <img border="0" alt="W3Schools" src="images/go-back-icon.png" width="75" height="75">
+                    <img border="0" alt="W3Schools" src="images/go-back-icon.png" width=30%>
                 </a>
             </div>
              
-			 <!-- stopknop -->
+			 <!-- stopknop linksonderin -->
 			 <div id="stopknop">
                 <a href="index.php">
-                    <img border="0" alt="W3Schools" src="images/stop.png" width="75" height="75">
+                    <img border="0" alt="W3Schools" src="images/stop.png" width=13%>
                 </a>
             </div>  
+    
             <!--robot -->
             <div id="robot">
-                <img src="images/robot.png" width="100" height="150"> 
+                <img src="images/robot.png" width=24%> 
             </div>
    
    

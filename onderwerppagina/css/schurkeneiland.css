@@ -2,7 +2,9 @@ html, body {
     background-color: #33C3FF; 
 	background-image: url("../images/Eiland2blauw.png");
 	background-repeat: no-repeat;
-	background-size: 1920px 1080px;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 #myModal1 {
@@ -108,14 +110,14 @@ top: 0%;
 
 #element1 {
 	position: absolute;
-	right: 60%;
-	top: 0%;
+	left: 95%;
+	bottom: -10%;
 }
 
 #element2 {
 	position: absolute;
-	right: -7%;
-	bottom: -19%;
+	left: 30%;
+	bottom: 80%;
 }
 
 #element3 {
@@ -129,14 +131,4 @@ top: 0%;
 	left: 40%;
 	bottom: -30%;
 }
-#element5 {
-	position: absolute;
-	left: 35%;
-	top: -10%;
-}
 
-#element6 {
-	position: absolute;
-	left: -10%;
-	top: -10%;
-}
