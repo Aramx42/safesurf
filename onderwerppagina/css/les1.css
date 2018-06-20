@@ -1,6 +1,6 @@
 html, body {
     background-color: #33C3FF; 
-	background-image: url("../images/Eiland2blauw.png");
+	background-image: url("../images/Eiland2blauw1.png");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
@@ -32,6 +32,12 @@ outline: none;
 }
 
 #myModal5 {
+top:20%;
+right:0%;
+outline: none;
+}
+
+#myModal6 {
 top:20%;
 right:0%;
 outline: none;
@@ -98,38 +104,44 @@ top: 0%;
 
 #personage {
 	position: relative; 
-	left: -17%; 
-	top: 0%
+	left: -46%; 
+	top: -15%
 }
 
 #element1 {
 	position: absolute;
-	left: -10%;
-	bottom: -10%;
+	left: 9%;
+	top: 6%;
 
 }
 
 #element2 {
 	position: absolute;
-	left: 35%;
-	bottom: -10%;
+	left: -13%;
+	top: 100%;
 }
 
 #element3 {
 	position: absolute;
-	left: 35%;
-	top: 8%;
+	left: 42%;
+	top: 105%;
 }
 
 #element4 {
 	position: absolute;
-	right: -10%;
-	top: 10%;
+	left: 95%;
+	top: 95%;
 }
 #element5 {
 	position: absolute;
-	right: -10%;
-	bottom: -10%;
+	left: 71%;
+	top: 59%;
+
+}
+#element6 {
+	position: absolute;
+	left: 53%;
+	top: 0%;
 
 }
 

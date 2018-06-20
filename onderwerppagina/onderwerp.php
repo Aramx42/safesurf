@@ -71,7 +71,7 @@
         </div>
     <!-- elementen-->
         <div id="element1">
-			<a href="#myModal1" role="button" data-toggle="modal" data-target="#myModal1"> <img src="images/info.png" width=150%";></a>
+			<a href="#myModal1" role="button" data-toggle="modal" data-target="#myModal1"> <img src="images/info.png" width=150%;></a>
         </div>
         	<!-- Modal1 INFOGRAPHIC -->
 	<div class="modal fade" id="myModal1" role="dialog">

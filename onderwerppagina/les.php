@@ -11,17 +11,14 @@
 	
 		<style>
   .modal-header, h4, .close {
-      <!--background-color: #33C3FF;-->
       color:white !important;
       text-align: bottom;
       font-size: 50px;
   }
   .modal-body {
 	  font-size:30px;
-      <!--background-color: #33C3FF;-->
   }
   .modal-footer {
-      <!--background-color: #33C3FF;-->
   }
   </style>
 	
@@ -66,11 +63,11 @@
     <div class="div-onderwerp">
         
         <div id="personage";>
-             <img src="images/karakter.png" width ="250" height ="187"></a>
+             <img src="images/karakter.png" width =30%></a>
         </div>		
 		
         <div id="element1">
-			<a href="#myModal1" role="button" data-toggle="modal" data-target="#myModal1"> <img src="images/info.png" width="120" height ="120"></a>
+			<a href="#myModal1" role="button" data-toggle="modal" data-target="#myModal1"> <img src="images/info.png" width=16%;></a>
         </div>
         
         <!-- Modal1 INFOGRAPHIC -->
@@ -80,11 +77,9 @@
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
-         <!-- <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Filmpje</h4>-->
         </div>
         <div class="modal-body" style="padding:40px 50px;">
-		<p>Infographic</p>
+		<p>Infographic</p> <!-- hier moet de content-->
         </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">terug</button>
@@ -95,7 +90,7 @@
   </div> 		
 		
         <div id="element2">
-			<a href="#myModal2" role="button" data-toggle="modal" data-target="#myModal2"> <img src="images/filmpje.png" width="120" height ="120"></a>
+			<a href="#myModal2" role="button" data-toggle="modal" data-target="#myModal2"> <img src="images/filmpje.png" width=11%></a>
         </div>
         
 		<!-- Modal2 FILMPJE-->
@@ -123,7 +118,7 @@
   </div> 
         
         <div id="element3">
-			<a href="#myModal3" role="button" data-toggle="modal" data-target="#myModal3"> <img src="images/quiz.png" width="120" height ="120"></a>
+			<a href="#myModal3" role="button" data-toggle="modal" data-target="#myModal3"> <img src="images/quiz.png" width=20%></a>
         </div>
         	<!-- Modal3 QUIZ -->
 	<div class="modal fade" id="myModal3" role="dialog">
@@ -132,8 +127,6 @@
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
-         <!-- <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Filmpje</h4>-->
         </div>
         <div class="modal-body" style="padding:40px 50px;">
 		<p>quiz</p>
@@ -146,7 +139,7 @@
     </div>
   </div> 
         <div id="element4">
-			<a href="#myModal4" role="button" data-toggle="modal" data-target="#myModal4"> <img src="images/filmpje.png" width="120" height ="120"></a>
+			<a href="#myModal4" role="button" data-toggle="modal" data-target="#myModal4"> <img src="images/filmpje.png" width=200%></a>
         </div>
 		
 			<!-- Modal4 FILMPJE 2-->
@@ -174,7 +167,7 @@
   </div> 
 		
         <div id="element5">
-			<a href="#myModal5" role="button" data-toggle="modal" data-target="#myModal5"> <img src="images/game.png" width="120" height ="120"></a>
+			<a href="#myModal5" role="button" data-toggle="modal" data-target="#myModal5"> <img src="images/game.png" width=30%></a>
         </div>
 		
 			<!-- Modal5	 GAME -->
@@ -184,11 +177,31 @@
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
-         <!-- <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Filmpje</h4>-->
         </div>
         <div class="modal-body" style="padding:40px 50px;">
 		<p>spelletje</p>
+        </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">terug</button>
+      </div>
+      </div>
+      
+    </div>
+  </div> 
+  
+        <div id="element6">
+			<a href="#myModal6" role="button" data-toggle="modal" data-target="#myModal3"> <img src="images/quiz.png" width=24%></a>
+        </div>
+        	<!-- Modal6 QUIZ -->
+	<div class="modal fade" id="myModal6" role="dialog">
+		<div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+		<p>quiz</p>
         </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">terug</button>
