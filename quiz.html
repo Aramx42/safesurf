@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Docent Omgeving</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="CSS/styledocent.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<div class="container" align="center">	
+	
+	<!-- Quiz Knop: onderstaande "<a href"#"...> </a>" moet dus om de afbeelding met het quiz icoontje (De <button> die tussen de <a> zit, dus veranderen voor <img>quizicoon-->
+	<!-- styledocent.css ook updaten!  :D -->
+	
+  <div align= "right" class="col-lg-8" style="color: black; padding-top: 10%">
+     <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><button class="btn btn-success btn-xl"> Quiz</button></a>
+	 
+							<!-- Start Quiz -->
+				
+	 <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" align="left" data-backdrop="static" data-keyboard="false" style="background-color: transparent" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+       <div class="modal-header">
+        
+        <h3 class="modal-title" align="center" style="color: white">Quiz</h3>
+      </div>
+      <div class="modal-body" align="center" style="background-color: white; border-color: #33C3FF">
+	 <div class="col-lg-8 col-lg-offset-1" style="background-color: white; margin-top: 3%">
+	  <img align="right" border="0" alt="W3Schools" src="images/quiztekstballon.png" width="110%" height="110%"> 
+	  <div class="col-lg-offset-3" style="background-color: white; margin-top: 40%">
+	  <div align="center" class="btn btn-success btn-xl" data-dismiss="modal" data-toggle="modal" data-target=".bd-example2-modal-lg" style="margin: 2%">Start de Quiz!</div>
+	  </div></div><br><br><br><br><br>
+	  <div class="col-lg-3" style="background-color: white">
+	  <img align="right" border="0" alt="W3Schools" src="images/Kopie van karakter2.png" width="100%" height="100%">
+	  </div>
+	  <br> <br> <br> 
+      <div class="modal-footer" style="background-color: #33C3FF; border-color: #33C3FF"" >
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Stoppen</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+							<!-- Eerste vraag quiz -->
+		
+<div class="modal bd-example2-modal-lg" tabindex="-1" role="dialog" align="left" data-backdrop="static" data-keyboard="false" style="background-color: transparent" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+       <div class="modal-header">
+	   
+        <h3 class="modal-title" align="center"style="color: white">Vraag 1</h3>
+      </div>
+				<div class="modal-body" align="left" style="background-color: white; border-color: #33C3FF">
+<div class="row col-lg-4"style="background-color: white">
+
+<!-- Afbeelding vraag 1 -->
+<a href="#" data-dismiss="modal" data-toggle="modal"data-target=".bd-vraag1afb-modal-lg"><img style="padding: 2%" border="0" alt="W3Schools" src="images/vraag1.png" width="100%" height="100%"></a>
+</div>
+
+
+				<div class="row col-lg-8" style="background-color: white">
+				<br>
+	<p style="font-size: 16px"><b>Je hebt een Instogromaccount waar je twee keer per week een leuke foto op plaatst. Meestal zijn dit selfies of foto´s van je huisdier.
+	<br> Op een gegeven moment krijg je dit mailtje van Instogrom.
+<br><br>Wat doe je?<br><br>
+</b></p>
+</div>
+<div class="row col-lg-12" style="background-color: white"> <p><font size="2">(klik op de afbeelding om hem te vergroten)</font></p></div>
+<br>
+<div class="col-lg-12" align="left" style="background-color: white"> 
+<br><br>
+<ul>
+  <li  style="border-top: 1px solid #333">
+    <input type="radio" id="a-option" name="selector">
+    <label for="a-option">A. Op de link klikken en snel mijn wachtwoord veranderen</label>
+    
+    <div class="check"></div>
+  </li>
+  
+  <li style="border-top: 1px solid #333">
+    <input type="radio" id="b-option" name="selector">
+    <label for="b-option">B. Op de link klikken om meer informatie te krijgen</label>
+    
+    <div class="check"><div class="inside"></div></div>
+  </li>
+  
+  <li>
+    <input type="radio" id="c-option" name="selector">
+    <label for="c-option">C. Niet op de link klikken en voor de zekerheid je wachtwoord veranderen</label>
+    
+    <div class="check"><div class="inside"></div></div>
+  </li>
+  
+  <li>
+    <input type="radio" id="d-option" name="selector">
+    <label for="d-option">D. De e-mail doorsturen naar je beste vriend(in)</label>
+    
+    <div class="check"><div class="inside"></div></div>
+  </li>
+</ul>
+</div>
+
+<div class="col-lg-12" align="center" style="background-color: white">
+<br><br><br>
+<div class="btn btn-success btn-xl" data-dismiss="modal" data-toggle="modal" data-target=".bd-antwoord1-modal-lg">Doorgaan</div>
+</div>
+			</div>
+      <div class="modal-footer" style="background-color: #33C3FF; border-color: #33C3FF" >
+		<button type="button" class="btn btn-warning" data-dismiss="modal" data-toggle="modal" data-target=".bd-example-modal-lg">Terug</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Stoppen</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Vraag1 afbeelding vergroten-->
+
+<div class="modal bd-vraag1afb-modal-lg" tabindex="-1" role="dialog" align="center" data-backdrop="static" data-keyboard="false" style="background-color: transparent" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+       <div class="modal-header">
+
+        <h3 class="modal-title" align="center"style="color: white">Afbeelding Vraag 1</h3>
+      </div>
+				<div class="modal-body" style="background-color: white; border-color: #33C3FF">
+<a href="#" data-dismiss="modal" data-toggle="modal"data-target=".bd-example2-modal-lg""><img border="0" alt="W3Schools" src="images/vraag1.png" width="82%" height="82%"></a>
+      <div class="modal-footer" style="background-color: #33C3FF; border-color: #33C3FF" >
+		<button type="button" class="btn btn-warning mr-auto" data-dismiss="modal" data-toggle="modal" data-target=".bd-example2-modal-lg">Terug</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+</div> 
+				<!-- Antwoord vraag 1--> 
+
+<div class="modal bd-antwoord1-modal-lg" tabindex="-1" role="dialog" align="left" data-backdrop="static" data-keyboard="false" style="background-color: transparent" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" style="background-color: #5cb85c">
+    <div class="modal-content" >
+       <div class="modal-header" style="background-color: #5cb85c">
+	   
+        <h3 class="modal-title" align="center"style="color: white">Antwoord vraag 1</h3>
+      </div>
+				<div class="modal-body" align="center" style="background-color: white; border-color: #33C3FF">
+<div class="col-lg-8 col-lg-offset-2" style="background-color: white"><h3>Antwoord: C is het goede antwoord.</h3> <br>
+<p align="left">Je moet altijd oppassen met het klikken op links in een e-mail. 
+Soms sturen criminelen namelijk nepmails. Deze nepmails hebben vaak een link of bijlage die je moet openen. 
+De link kan je naar een criminele site sturen die gegevens van je wil stelen! Je kunt het beste je vader of moeder vragen of de e-mail betrouwbaar is. 
+Als zij niet in de buurt zijn, dan kun je het beste niet op de link klikken en voor de zekerheid je wachtwoord veranderen.</P><br></div>
+<img align="right" border="0" alt="W3Schools" src="images/Kopie van karakter2.png" width="20%" height="20%">
+
+<div class="btn btn-success btn-xl col-lg-offset-2" style="margin-top: 12%" data-dismiss="modal" data-toggle="modal" data-target=".bd-vraag2-modal-lg">Volgende vraag</div>
+      <div class="modal-footer" style="background-color: #5cb85c"; border-color: #33C3FF" >
+		<button type="button" class="btn btn-warning" data-dismiss="modal" data-toggle="modal" data-target=".bd-example2-modal-lg">Terug</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Stoppen</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+								<!-- Vraag 2 -->
+
+<div class="modal bd-vraag2-modal-lg" tabindex="-1" role="dialog" align="left" data-backdrop="static" data-keyboard="false" style="background-color: transparent" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+       <div class="modal-header">
+	   
+        <h3 class="modal-title" align="center"style="color: white">Vraag 2</h3>
+      </div>
+				<div class="modal-body" align="left" style="background-color: white; border-color: #33C3FF">
+<div class="row col-lg-3" style="background-color: white">
+
+<!-- Afbeelding vraag 2 -->
+<a href="#" data-dismiss="modal" data-toggle="modal"data-target=".bd-vraag2afb-modal-lg"><img border="0" alt="W3Schools" src="images/vraag2.png" width="80%" height="80%"></a>
+</div>
+
+
+				<div class="col-lg-9" style="background-color: white">
+				<br>
+	<p style="font-size: 16px"><b>Charlie heeft je een keer toegevoegd op Bepchat. Jullie praten vaak met elkaar. Je kent hem verder niet. 
+	Charlie lijkt je erg leuk en aardig. Op een gegeven moment krijg je het bovenstaande bericht van Charlie.
+<br><br>Wat doe je?<br><br>
+</b></p>
+</div>
+<div class="col-lg-6" style="background-color: white"> <p><font size="2">(klik op de afbeelding om hem te vergroten)</font></p></div>
+<br>
+<div class="col-lg-9" align="left" style="background-color: white"> 
+<br><br>
+<ul>
+  <li  style="border-top: 1px solid #333">
+    <input type="radio" id="a2-option" name="selector">
+    <label for="a2-option">A. Vragen wat hij wil doen als we afspreken</label>
+    
+    <div class="check"></div>
+  </li>
+  
+  <li style="border-top: 1px solid #333">
+    <input type="radio" id="b2-option" name="selector">
+    <label for="b2-option">B. Vragen wanneer hij precies kan.</label>
+    
+    <div class="check"><div class="inside"></div></div>
+  </li>
+  
+  <li>
+    <input type="radio" id="c2-option" name="selector">
+    <label for="c2-option">C. Zeggen dat het je geen goed idee lijkt om met een vreemde af te spreken.</label>
+    
+    <div class="check"><div class="inside"></div></div>
+  </li>
+  
+  <li>
+    <input type="radio" id="d2-option" name="selector">
+    <label for="d2-option">D. Zeggen dat je in de vakantie wilt afspreken, omdat je dan niks te doen hebt.</label>
+    
+    <div class="check"><div class="inside"></div></div>
+  </li>
+</ul>
+</div>
+
+<div class="col-lg-12" align="center" style="background-color: white">
+<br><br><br>
+<div class="btn btn-success btn-xl" data-dismiss="modal" data-toggle="modal" data-target=".bd-antwoord2-modal-lg">Doorgaan</div>
+</div>
+			</div>
+      <div class="modal-footer" style="background-color: #33C3FF; border-color: #33C3FF" >
+		<button type="button" class="btn btn-warning" data-dismiss="modal" data-toggle="modal" data-target=".bd-antwoord1-modal-lg">Terug</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Stoppen</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Afbeelding Vraag2 vergroten-->
+
+<div class="modal bd-vraag2afb-modal-lg" tabindex="-1" role="dialog" align="center" data-backdrop="static" data-keyboard="false" style="background-color: transparent" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+       <div class="modal-header">
+
+        <h3 class="modal-title" align="center"style="color: white">Afbeelding Vraag 2</h3>
+      </div>
+				<div class="modal-body" style="background-color: white; border-color: #33C3FF">
+<div class="row col-lg-12" style="background-color: white"><a href="#" data-dismiss="modal" data-toggle="modal"data-target=".bd-vraag2-modal-lg"><img border="0" alt="W3Schools" src="images/vraag2.png" width="30%" height="30%"></a>
+     </div>
+	 <div class="modal-footer" style="background-color: #33C3FF; border-color: #33C3FF" >
+		<button type="button" class="btn btn-warning mr-auto" data-dismiss="modal" data-toggle="modal" data-target=".bd-vraag2-modal-lg">Terug</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+				<!-- Antwoord vraag 2--> 
+
+<div class="modal bd-antwoord2-modal-lg" tabindex="-1" role="dialog" align="left" data-backdrop="static" data-keyboard="false" style="background-color: transparent" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" style="background-color: #5cb85c">
+    <div class="modal-content" >
+       <div class="modal-header" style="background-color: #5cb85c">
+	   
+        <h3 class="modal-title" align="center"style="color: white">Antwoord vraag 2</h3>
+      </div>
+				<div class="modal-body" align="center" style="background-color: white; border-color: #33C3FF">
+<div class="col-lg-8 col-lg-offset-2" style="background-color: white"><h3>Antwoord: C is het goede antwoord.</h3> <br>
+<p align="left">Wanneer je iemand niet kent, dan moet je voorzichtig zijn!
+ Misschien is de persoon met wie je op internet anders dan in het echt. 
+Je kunt dus het beste zeggen dat je niet wilt afspreken met iemand die je niet kent.</P><br></div>
+<img align="right" border="0" alt="W3Schools" src="images/Kopie van karakter2.png" width="20%" height="20%">
+
+<div class="btn btn-success btn-xl col-lg-offset-2" style="margin-top: 12%" data-dismiss="modal" data-toggle="modal" data-target=".bd-vraag3-modal-lg">Volgende vraag</div>
+      <div class="modal-footer" style="background-color: #5cb85c"; border-color: #33C3FF" >
+		<button type="button" class="btn btn-warning" data-dismiss="modal" data-toggle="modal" data-target=".bd-vraag2-modal-lg">Terug</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Stoppen</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Vraag 3 -->
+
+<div class="modal bd-vraag3-modal-lg" tabindex="-1" role="dialog" align="left" data-backdrop="static" data-keyboard="false" style="background-color: transparent" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+       <div class="modal-header">
+	   
+        <h3 class="modal-title" align="center"style="color: white">Vraag 3</h3>
+      </div>
+				<div class="modal-body" align="left" style="background-color: white; border-color: #33C3FF">
+<div class="row col-lg-4" style="background-color: white">
+
+<!-- Afbeelding vraag 3 -->
+<a href="#" data-dismiss="modal" data-toggle="modal"data-target=".bd-vraag3afb-modal-lg"><img style="padding: 2%" border="0" alt="W3Schools" src="images/vraag3.png" width="100%" height="100%"></a>
+</div>
+
+
+				<div class="col-lg-8" style="background-color: white">
+				<br>
+	<p style="font-size: 16px"><b>Je kijkt in je vrije tijd graag een filmpje op JoeToo. 
+Vaak lig je in een deuk om de video’s van je favoriete vloggers. De vlogs van Bepqueen kijk je iedere woensdag meteen als ze online komen. 
+In de nieuwste vlog is Bepqueen met een aantal van zijn fans in het park. Ze hebben het
+superleuk met elkaar. Het lijkt jou ook wel leuk om je JoeToo-idool te ontmoeten. Toevallig
+staat in de beschrijving dat je kans kunt maken om Bepqueen te ontmoeten als je naar een
+nummer belt.
+
+<br><br>Wat doe je?
+</b></p>
+</div>
+<div class="row col-lg-12" style="background-color: white"> <p><font size="2">(klik op de afbeelding om hem te vergroten)</font></p></div>
+
+<div class="col-lg-12" align="left" style="background-color: white"> 
+<br><br>
+<ul>
+  <li  style="border-top: 1px solid #333">
+    <input type="radio" id="a3-option" name="selector">
+    <label for="a3-option">A. Meteen bellen met mijn telefoon.</label>
+    
+    <div class="check"></div>
+  </li>
+  
+  <li style="border-top: 1px solid #333">
+    <input type="radio" id="b3-option" name="selector">
+    <label for="b3-option">B. Kijken of de reacties op de video goed zijn en daarna misschien bellen.</label>
+    
+    <div class="check"><div class="inside"></div></div>
+  </li>
+  
+  <li>
+    <input type="radio" id="c3-option" name="selector">
+    <label for="c3-option">C. Bellen met de telefoon van mijn ouders, want zij hebben meer geld.</label>
+    
+    <div class="check"><div class="inside"></div></div>
+  </li>
+  
+  <li>
+    <input type="radio" id="d3-option" name="selector">
+    <label for="d3-option">D. Niet bellen en geen kans maken op een ontmoeting.</label>
+    
+    <div class="check"><div class="inside"></div></div>
+  </li>
+</ul>
+</div>
+
+<div class="col-lg-12" align="center" style="background-color: white">
+<br>
+<div class="btn btn-success btn-xl" data-dismiss="modal" data-toggle="modal" data-target=".bd-antwoord3-modal-lg">Doorgaan</div>
+</div>
+			</div>
+      <div class="modal-footer" style="background-color: #33C3FF; border-color: #33C3FF" >
+		<button type="button" class="btn btn-warning" data-dismiss="modal" data-toggle="modal" data-target=".bd-antwoord2-modal-lg">Terug</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Stoppen</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Afbeelding Vraag3 vergroten-->
+
+<div class="modal bd-vraag3afb-modal-lg" tabindex="-1" role="dialog" align="center" data-backdrop="static" data-keyboard="false" style="background-color: transparent" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+       <div class="modal-header">
+
+        <h3 class="modal-title" align="center"style="color: white">Afbeelding Vraag 3</h3>
+      </div>
+				<div class="modal-body" style="background-color: white; border-color: #33C3FF">
+				<br>
+<div class="row col-lg-12" style="background-color: white"><a href="#" data-dismiss="modal" data-toggle="modal"data-target=".bd-vraag3-modal-lg"><img border="0" alt="W3Schools" src="images/vraag3.png" width="80%" height="80%"></a>
+     </div>
+	 <div class="modal-footer" style="background-color: #33C3FF; border-color: #33C3FF" >
+		<button type="button" class="btn btn-warning mr-auto" data-dismiss="modal" data-toggle="modal" data-target=".bd-vraag3-modal-lg">Terug</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+				<!-- Antwoord vraag 3--> 
+
+<div class="modal bd-antwoord3-modal-lg" tabindex="-1" role="dialog" align="left" data-backdrop="static" data-keyboard="false" style="background-color: transparent" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" style="background-color: #5cb85c">
+    <div class="modal-content" >
+       <div class="modal-header" style="background-color: #5cb85c">
+	   
+        <h3 class="modal-title" align="center"style="color: white">Antwoord vraag 3</h3>
+      </div>
+				<div class="modal-body" align="center" style="background-color: white; border-color: #33C3FF">
+<div class="col-lg-8 col-lg-offset-2" style="background-color: white"><h3>Antwoord: D is het goede antwoord.</h3> <br>
+<p align="left">Je moet niet zomaar bellen naar een nummer, want dit kan veel geld kosten!
+ Ook als het je favoriete JoeToo’er is, dan wil dat niet zeggen dat hij of zij voor 100 procent te vertrouwen is.
+ Mensen die filmpjes maken doen dit vaak om geld te verdienen. Dat geld moet natuurlijk ergens vandaan komen.
+ Om geld te verdienen kunnen JoeToo’ers producten testen van bedrijven.
+ Dan krijgen zij geld van het bedrijf als zij alleen maar goede dingen zeggen over de producten.
+ Maar er zijn ook andere manieren om geld te verdienen, bijvoorbeeld met leuke t-shirts of door kijkers te laten bellen naar een nummer..</P><br></div>
+<img align="right" border="0" alt="W3Schools" src="images/Kopie van karakter2.png" width="20%" height="20%">
+
+<div class="btn btn-success btn-xl col-lg-offset-2" style="margin-top: 12%" data-dismiss="modal" data-toggle="modal" data-target=".bd-vraag4-modal-lg">Einde Quiz</div>
+      <div class="modal-footer" style="background-color: #5cb85c"; border-color: #33C3FF" >
+		<button type="button" class="btn btn-warning" data-dismiss="modal" data-toggle="modal" data-target=".bd-vraag3-modal-lg">Terug</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Stoppen</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>	
+</div>
+</body>
